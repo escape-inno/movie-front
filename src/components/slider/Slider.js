@@ -43,7 +43,7 @@ const settings = {
 };
 
 const SlideTitle = styled.h2`
-  padding: 60px 0px 50px 0px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
@@ -120,7 +120,7 @@ const CardImgBox = styled.div`
   }
   &:hover::before {
     transition: all 0.3s ease-out;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
   }
   ::after {
     position: absolute;
@@ -138,7 +138,7 @@ const CardImgBox = styled.div`
     font-weight: bold;
     border-radius: 5px;
     z-index: -1;
-    opacity: 0;
+    opacity: 1;
   }
   &:hover::after {
     transition: all 0.3 ease-in-out;

@@ -26,6 +26,7 @@ button,
 form {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* a 링크 초기화 */

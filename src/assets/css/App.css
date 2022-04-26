@@ -11,3 +11,144 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* subpage */
+main {
+  padding: 50px 0 80px;
+}
+
+.subTitle {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.filterBox {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+.filterBox ul {
+  width: 90%;
+  float: left;
+  overflow: hidden;
+}
+.filterBox ul li {
+  float: left;
+  font-size: 14px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.filterBox ul li:last-child {
+  margin-right: 0;
+}
+.filterBox ul li input {
+  width: 230px;
+  height: 30px;
+  border: 1px solid #ddd;
+}
+.filterBox div {
+  width: 10%;
+  float: right;
+  text-align: center;
+}
+.filterBox div button {
+  width: 100%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+}
+
+.contents {
+  margin-top: 80px;
+}
+.contents > div.total {
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+}
+
+.listWrap {
+  margin-top: 20px;
+  border-top: 4px solid #ccc;
+}
+
+.listWrap .listBox {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 23px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.listBox .list-img {
+  float: left;
+  width: 160px;
+}
+.listBox .list-img img {
+  width: 160px;
+}
+.listBox .list-txt {
+  float: left;
+  width: 1000px;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+.listBox .list-txt h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.listBox .list-txt ul {
+  margin-top: 30px;
+}
+.listBox .list-txt ul li {
+  font-size: 16px;
+}
+.listBox .list-txt button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  display: block;
+  margin-top: -25px;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.pagination {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 43px;
+  font-size: 0;
+}
+.pagination span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #ddd;
+  margin-left: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.pagination span:first-child {
+  margin-left: 0;
+}
+.pagination ul {
+  display: inline-block;
+}
+.pagination ul li {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #ddd;
+  margin-left: 15px;
+}
+.pagination ul li.active {
+  background: #ddd;
+  font-weight: bold;
+}
