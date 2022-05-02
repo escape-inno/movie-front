@@ -49,12 +49,12 @@ header .searchBoxArea .searchBox input {
   top: 0;
   left: 0;
   width: 480px;
-  height: 24px;
+  height: 46px;
   padding: 13px 15px;
   margin: 1px;
   background-color: #fff;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 46px;
   color: #333;
   font-weight: 700;
   outline: 0;
@@ -108,7 +108,7 @@ nav ul li:hover {
 main {
   width: 100%;
   min-height: 600px;
-  padding: 50px 0 80px;
+  padding: 50px 0 100px;
 }
 
 footer {

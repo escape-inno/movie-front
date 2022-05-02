@@ -114,15 +114,15 @@ const DailyBoxOfficePage = () => {
           </div>
         </div>
         <div className="pagination">
-          <span>prev</span>
+          <span>&lt;</span>
           <ul>
-            <li class="active}">1</li>
+            <li className="active">1</li>
             <li>2</li>
             <li>3</li>
             <li>4</li>
             <li>5</li>
           </ul>
-          <span>next</span>
+          <span>&gt;</span>
         </div>
       </div>
     </>
