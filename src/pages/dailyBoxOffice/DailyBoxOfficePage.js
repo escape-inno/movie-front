@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const DailyBoxOfficePage = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const DailyBoxOfficePage = () => {
       <div className="filterBox">
         <ul>
           <li>
-            조회 : <input type={'data'} />
+            조회 : <input type={'date'} />
           </li>
           <li>
             국적 : <input type={'text'} />
@@ -37,7 +39,9 @@ const DailyBoxOfficePage = () => {
                 <li>스크린수 : 1,098</li>
                 <li>매출액 : 239,949,630 원</li>
               </ul>
-              <button>상세보기</button>
+              <Link to="/detail">
+                <button>상세보기</button>
+              </Link>
             </div>
           </div>
           <div className="listBox">

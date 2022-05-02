@@ -7,8 +7,8 @@ import {
   MovieCompanyPage,
   MoviePage,
   MoviePeoplePage,
+  DailyBoxOfficeDetailPage,
 } from '../pages';
-
 const RouterContainer = () => {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ const RouterContainer = () => {
           <Route path="/movie" element={<MoviePage />} />
           <Route path="/MoviePeoplePage" element={<MoviePeoplePage />} />
           <Route path="/movieCompany" element={<MovieCompanyPage />} />
+          <Route path="/detail" element={<DailyBoxOfficeDetailPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>
