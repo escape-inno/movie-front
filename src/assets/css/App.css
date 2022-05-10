@@ -172,3 +172,61 @@ main {
   color: #fff;
   font-weight: bold;
 }
+
+/* Sub - Detail */
+.detailTop {
+  width: 100%;
+  overflow: hidden;
+}
+.detailTop .img {
+  float: left;
+  width: 18%;
+}
+.detailTop .img img {
+  width: 100%;
+}
+.detailTop .text {
+  float: left;
+  width: 82%;
+  padding: 0 30px;
+  word-break: keep-all;
+}
+.detailTop .text h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.detailTop .text ul {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 45px;
+}
+.detailTop .text ul li {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.detailTop .text ul li:first-child {
+  margin-top: 0;
+}
+.detailTop .text ul li span {
+  display: inline-block;
+  font-weight: bold;
+  width: 70px;
+}
+
+.subContent {
+  margin-top: 100px;
+}
+.subContent .sub_title {
+  margin-top: 70px;
+  border-left: 10px solid #b7b7ff;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.subContent .sub_desc {
+  margin-top: 20px;
+  font-size: 14px;
+}
